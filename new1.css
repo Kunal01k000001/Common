@@ -1,0 +1,244 @@
+*{
+    margin: 0; box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color:  black;
+
+}
+.nav h1{
+    color: rgba(165, 42, 42, 0.781);
+    font-size: 35px;
+    margin-left: 50px;
+}
+.nav ul{
+    width: 900px;   
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav ul li a{
+    color:gold;
+    text-decoration: none;
+    font-size: 25px;
+border-radius: 25px;
+padding: 10px 15px;
+}
+.nav ul li a:hover{
+    transition: .2s ease-in;
+background-color: brown;
+}
+.home ::before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(H11.avif);
+    background-size: cover;
+    gap: 30px;
+}
+.home h1{
+    color: gold;
+    font-size: 35px;
+    z-index: 1111111111;
+}
+.home p{
+    color:GOLD;
+    font-size: 21px;
+    z-index: 1111111111;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: gold;
+    gap: 50px;
+}
+.card-1{
+    width: 330px;
+    height: 410px;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    background-image: url(h13.avif);
+    flex-direction: column;
+    list-style: none;
+    border-radius: 25px;
+}
+.card-1 img{
+    width: 330px;
+    height:410px ;
+}
+.card-1 h5{
+    font-size: 23px;
+    color: white;
+}
+.card-1 li a{
+    text-decoration: none;
+    color:yellow;
+    font-size: 23px;
+    z-index: 11111111111111;
+    
+
+}
+.card-2{
+    width: 330px;
+    height: 410px;
+    display: flex;
+    background-image:url(i5.webp) ;
+    background-size: cover;
+    align-items: start;
+    gap: 300px;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    border-radius: 25px;
+}
+.card-2 img{
+    width: 330px;
+    height:410px ;
+}
+.card-2 h5{
+    font-size: 23px;
+    color: white;
+}
+.card-2 li a{
+    text-decoration: none;
+    color:yellow;
+    font-size: 23px;
+    z-index: 11111111111111;
+    
+
+}
+
+.card-3{
+    width: 330px;
+    height: 410px;
+    align-items: start;
+    display: flex;
+    gap: 300px;
+    background-image: url(i7.jpg);
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+ border-radius: 25px;
+}
+.card-3 img{
+    width: 330px;
+    height:410px ;
+}
+.card-3 h5{
+    font-size: 23px;
+    color: white;
+}
+.card-3 li a{
+    text-decoration: none;
+    color:yellow;
+    font-size: 23px;
+    z-index: 11111111111111;
+    
+
+}
+.last{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+
+}
+.last-1{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.last-1 button{
+    padding: 10px 15px;
+    background-color: gold;
+    color: white;
+    border-radius: 25px;
+    font-size: 25px;
+    border: none;
+}
+.last-1 h1{
+    font-size: 35px;
+    color: gold;
+}
+.last-1 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.last-2{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    flex-direction: column;
+
+}
+.last-2 ul{
+    height: 200px;
+    list-style: none;
+    gap: 13px;
+}
+.last-2 ul li a{
+    font-size:25px ;
+    text-decoration: none;
+    color: white;
+}
+.last-2 h1{
+    font-size: 35px;
+    color: gold;
+}
+.last-3{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.last-3 h1{
+    font-size: 35px;
+    color: gold;
+}
+.last-3 h5{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
